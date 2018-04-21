@@ -4,3 +4,7 @@ var maleNames = ['Piotrek', 'Marek', 'Arek', 'Jarek'];
 var allNames = allNames.concat(femaleNames,maleNames);
 
 console.log(allNames);
+
+var newName = 'Marian';
+
+if () {}
