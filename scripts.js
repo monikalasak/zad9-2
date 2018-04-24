@@ -6,15 +6,13 @@ var allNames = femaleNames.concat( maleNames);
 console.log(allNames);
 
 var newName = 'Marian';
-var indexOfnewName = allNames.indexOf(newName);
-var x = allNames.push(newName);
+var indexnewName = allNames.indexOf(newName);
+var addnewName = allNames.push(newName);
 
-console.log('The search value is on ' + indexOfnewNames + ' position');
-console.log(indexOfnewName);
+console.log('The search value is on ' + indexnewName + ' position');
+console.log(indexnewName);
 
 if (allNames.indexOf(newName) === -1){
-	return x;
-} else {
-	return 'Imię jest już w tabeli'
-}
+	console.log(addnewName);
+} 
 
